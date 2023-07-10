@@ -4,3 +4,7 @@ pip install chatterbot
 brew install gcc
 pip install --no-cache-dir preshed thinc blis
 The --no-cache-dir flag is used to prevent using cached files during installation, which can sometimes cause issues.
+python3 -m pip install wheel setuptools pip --upgrade
+python3 -m pip install pip==21.3.1
+python3 -m pip install numpy --use-deprecated=legacy-resolver
+pip install chatterbot
