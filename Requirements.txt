@@ -1,0 +1,6 @@
+pip install chatterbot
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+(Homebrew)
+brew install gcc
+pip install --no-cache-dir preshed thinc blis
+The --no-cache-dir flag is used to prevent using cached files during installation, which can sometimes cause issues.
