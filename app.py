@@ -1,5 +1,6 @@
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
+from collections.abc import Hashable
 
 # Create a chatbot instance
 chatbot = ChatBot('My Chatbot')
